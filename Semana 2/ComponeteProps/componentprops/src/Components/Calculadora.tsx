@@ -2,24 +2,20 @@ import React from 'react'
 import { Parametros } from '../Modelos/Parametros';
 
 
-/** 
- * 
- * SUma
- * Resta
- * multiplizacion
- * Factorial de un numero
-*/
 function Suma(a: number,b:number){
     return a+b;
 }
+
 
 function Resta(a:number,b:number){
   return a-b;
 }
 
+
 function Multiplicacion(a:number,b:number){
   return a*b;
 }
+
 
 function Factorial (a:number){
   let resultado = 1
@@ -41,3 +37,5 @@ function Calculadora(props:Parametros) {
 }
 
 export default Calculadora
+
+
